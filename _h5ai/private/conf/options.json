@@ -129,7 +129,7 @@
     */
     "download": {
         "enabled": true,
-        "type": "php-tar",
+        "type": "shell-zip",
         "packageName": null,
         "alwaysVisible": false
     },
@@ -187,7 +187,7 @@
     */
     "info": {
         "enabled": true,
-        "show": false,
+        "show": true,
         "qrcode": true,
         "qrFill": "#999",
         "qrBack": "#fff"
@@ -203,7 +203,7 @@
     */
     "l10n": {
         "enabled": true,
-        "lang": "en",
+        "lang": "zh-cn",
         "useBrowserLang": true
     },
 
@@ -310,7 +310,7 @@
     - ignorecase: boolean, ignore case
     */
     "search": {
-        "enabled": false,
+        "enabled": true,
         "advanced": true,
         "debounceTime": 300,
         "ignorecase": true
